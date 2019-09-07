@@ -1,0 +1,169 @@
+<html>
+<script>
+function openTab(tabName) {
+   var i;
+   var x = document.getElementsByClassName("tab");
+   for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+   }
+   document.getElementById(tabName).style.display = "block";
+}
+</script>
+<script>var whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script><script src="https://wow.zamimg.com/widgets/power.js"></script>
+<style>
+html { background-color: #000; };
+.divTable{ display: table; float: left; margin: 10px 10px; }
+.divTableRow { display: table-row; background-color: #000}
+.divTableRow:hover { background-color: #222; }
+.divTableHeading { background-color: #EEE; display: table-header-group; }
+.divTableCell, .divTableHead { border: 1px solid #999999; display: table-cell; padding: 3px 10px; }
+.divPlayer { border: 1px solid #999999; display: table-cell; width: 700px; padding: 3px 10px; text-align: left; vertical-align: middle; word-wrap: normal; color: #ffffff; }
+.divClass { border: 1px solid #999999; display: table-cell; padding: 3px 10px; text-align: center; vertical-align: middle; color: #ffffff; }
+.divDKP { border: 1px solid #999999; display: table-cell; width: 200px%; padding: 3px 10px; text-align: center; vertical-align: middle; color: #ffffff; }
+.divPlayerHeader { border: 1px solid #999999; display: table-cell; font-weight: bold; width: 50%; padding: 3px 10px; text-align: left; background-color: #bbb; }
+.divClassHeader { border: 1px solid #999999; display: table-cell; font-weight: bold; width: 150px; padding: 3px 10px; text-align: center; background-color: #bbb; }
+.divDKPHeader { border: 1px solid #999999; display: table-cell; font-weight: bold; width: 30%; padding: 3px 10px; text-align: center; background-color: #bbb; }
+.divTableHeading { background-color: #EEE; display: table-header-group; font-weight: bold; }
+.divTableFoot { background-color: #EEE; display: table-footer-group; font-weight: bold; }
+.divTableBody { display: table-row-group; }
+</style>
+
+<br /><br />
+<div>
+   <button onclick="openTab('DKP')">DKP Table</button>
+   <button onclick="openTab('DKPRegeln')">DKP Regeln</button>
+   <button onclick="openTab('DKPHistory')">DKP History</button>
+   <button onclick="openTab('LootHistory')">Loot History</button>
+
+</div>
+<br /><br />
+<div id="DKP" class="tab"><div class="divTable" style="width: 30%;border: 1px solid #000;">
+   <div class="divTableBody">
+      <div class="divTableRow">
+         <div class="divPlayerHeader">Player</div>
+         <div class="divClassHeader">Class</div>
+         <div class="divDKPHeader">DKP</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Avallari</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Chewiie</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Fadaus</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Fidius</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Garasu</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Kreko</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Lowii</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Normahl</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Shards</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Shinas</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Shungit</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Smokyjohn</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg" height="24" width="24" /></div>
+         <div class="divDKP">30</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Yaijin</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+   </div>
+</div>
+</div>
+<div id="DKPRegeln" class="tab" style="display:none"><div class="divTable" style="width: 30%;border: 1px solid #000;">
+  <div class="divTableBody">
+    <div class="divTableRow">
+      <div class="divPlayerHeader">Aktion</div>
+      <div class="divDKPHeader">DKP Zugewinn</div>
+    </div>
+    <div class="divTableRow">
+       <div class="divPlayer">Raidteilnahme (pro Raid)</div>
+       <div class="divDKP">50</div>
+    </div>
+    <div class="divTableRow">
+       <div class="divPlayer">Farmen (35 Gold an Gildenbank, einmalig pro Woche)</div>
+       <div class="divDKP">35</div>
+    </div>
+    <div class="divTableRow">
+       <div class="divPlayer">---------------------------</div>
+       <div class="divDKP">-------------</div>
+    </div>
+    <div class="divTableRow">
+       <div class="divPlayer">Angemeldets nicht erscheinen</div>
+       <div class="divDKP">-50 DKP</div>
+    </div>
+    <div class="divTableRow">
+       <div class="divPlayer">Zu spät kommen (ab 5 Minuten Verspätung)</div>
+       <div class="divDKP">-20 DKP</div>
+    </div>
+  </div>
+</div>
+</div>
+<div id="DKPHistory" class="tab" style="display:none"><div class="divTable" style="width: 95%;border: 1px solid #000;">
+   <div class="divTableBody">
+      <div class="divTableRow">
+         <div class="divPlayerHeader">Players</div>
+         <div class="divClassHeader" style="width: 4%;">DKP</div>
+         <div class="divDKPHeader">Date/Reason</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer" style="font-size: 0.7em; width: 71%;">Smokyjohn, </div>
+         <div class="divClass" style="width: 4%;">30</div>
+         <div class="divDKP" style="width: 25%; font-size: 0.7em;">Other - Farm DKP 30 Gold<br />(09/06/19 22:42:08) </div>
+      </div>
+   </div>
+</div>
+</div>
+<div id="LootHistory" class="tab" style="display:none"><div class="divTable" style="width: 50%;border: 1px solid #000;">
+   <div class="divTableBody">
+      <div class="divTableRow">
+         <div class="divPlayerHeader">Loot</div>
+         <div class="divClassHeader">Player</div>
+         <div class="divDKPHeader">From</div>
+      </div>
+   </div>
+</div>
+</div>
+</html>
