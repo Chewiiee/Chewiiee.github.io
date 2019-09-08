@@ -37,6 +37,12 @@ html { background-color: #000; };
 
 </div>
 <br /><br />
+<div>
+   <button onclick="openTab('DKP')">DKP Table</button>
+   <button onclick="openTab('DKPHistory')">DKP History</button>
+   <button onclick="openTab('LootHistory')">Loot History</button>
+</div>
+<br /><br />
 <div id="DKP" class="tab"><div class="divTable" style="width: 30%;border: 1px solid #000;">
    <div class="divTableBody">
       <div class="divTableRow">
@@ -102,7 +108,7 @@ html { background-color: #000; };
       <div class="divTableRow">
          <div class="divPlayer">Smokyjohn</div>
          <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg" height="24" width="24" /></div>
-         <div class="divDKP">30</div>
+         <div class="divDKP">0</div>
       </div>
       <div class="divTableRow">
          <div class="divPlayer">Yaijin</div>
@@ -141,12 +147,17 @@ html { background-color: #000; };
   </div>
 </div>
 </div>
-<div id="DKPHistory" class="tab" style="display:none"><div class="divTable" style="width: 95%;border: 1px solid #000;">
+<div id="DKPHistory" class="tab" style="display:none;"><div class="divTable" style="width: 95%;border: 1px solid #000;">
    <div class="divTableBody">
       <div class="divTableRow">
          <div class="divPlayerHeader">Players</div>
          <div class="divClassHeader" style="width: 4%;">DKP</div>
          <div class="divDKPHeader">Date/Reason</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer" style="font-size: 0.7em; width: 71%;">Smokyjohn, </div>
+         <div class="divClass" style="width: 4%;">-30</div>
+         <div class="divDKP" style="width: 25%; font-size: 0.7em;">Other - Testeintrag entfernen<br />(09/08/19 02:05:30) </div>
       </div>
       <div class="divTableRow">
          <div class="divPlayer" style="font-size: 0.7em; width: 71%;">Smokyjohn, </div>
@@ -156,7 +167,7 @@ html { background-color: #000; };
    </div>
 </div>
 </div>
-<div id="LootHistory" class="tab" style="display:none"><div class="divTable" style="width: 50%;border: 1px solid #000;">
+<div id="LootHistory" class="tab" style="display:none;"><div class="divTable" style="width: 50%;border: 1px solid #000;">
    <div class="divTableBody">
       <div class="divTableRow">
          <div class="divPlayerHeader">Loot</div>
